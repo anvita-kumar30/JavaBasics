@@ -15,6 +15,7 @@ class staff {
         address = sc.nextLine();
     }
     void display() {
+        System.out.println("Details are: ");
         System.out.println("The code is " + code);
         System.out.println("The name is " + name);
         System.out.println("The address is " + address);
@@ -37,12 +38,12 @@ class teacher extends staff {
     }
 }
 class typist extends staff {
-    String speed;
+    int speed;
     Scanner sc = new Scanner(System.in);
     void getdata() {
         super.getdata();
-        System.out.println("Enter speed:");
-        speed = sc.nextLine();
+        System.out.println("Enter the speed:");
+        speed = sc.nextInt();
     }
     void display() {
         super.display();
@@ -63,29 +64,29 @@ class officer extends staff {
     }
 }
 class regular extends typist {
-    int wages;
+    double basicpay;
     Scanner sc = new Scanner(System.in);
     void getdata() {
         super.getdata();
-        System.out.println("Enter wage:");
-        wages = sc.nextInt();
+        System.out.println("Enter the basic pay of the typist:");
+        basicpay = sc.nextDouble();
     }
     void display() {
         super.display();
-        System.out.println("The wages is " + wages);
+        System.out.println("Regular pay: "+basicpay);
     }
 }
 class adhoc extends typist {
-    int dailywages;
+    double pay;
     Scanner sc = new Scanner(System.in);
     void getdata() {
         super.getdata();
-        System.out.println("Enter daily wage:");
-        dailywages = sc.nextInt();
+        System.out.println("Enter the basic pay:");
+        pay = sc.nextInt();
     }
     void display() {
         super.display();
-        System.out.println("The daily wage is " + dailywages);
+        System.out.println("AdHoc pay: " + pay);
     }
 }
 class Inheritance {
