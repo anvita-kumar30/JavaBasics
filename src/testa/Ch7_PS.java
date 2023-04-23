@@ -64,19 +64,19 @@ public class Ch7_PS {
         multiplication(7);
 
         // Problem 2
-        //pattern1(9);
+        pattern1(9);
 
         // Problem 3
-        // int c = sumRec(4);
-        // System.out.println(c);
+         int c = sumRec(4);
+         System.out.println(c);
 
         // Problem 4
         // fibonacci series - 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-        // int result = fib(7);
-        // System.out.println(result);
+         int result = fib(7);
+         System.out.println(result);
 
         // Problem 8
-        //pattern1(9);
+        pattern1_rec(9);
 
     }
 }

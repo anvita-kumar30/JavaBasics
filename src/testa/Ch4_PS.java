@@ -1,14 +1,13 @@
 package testa;
 
-import java.util.Scanner;
 public class Ch4_PS {
     public static void main(String[] args) {
         //Question 1: find the value
-//        int a = 10;
-//        if(a=11)
-//            System.out.println("I am 11");
-//        else
-//            System.out.println("I am not 11");
+        int a1 = 10;
+        if(a1==11)
+            System.out.println("I am 11");
+        else
+            System.out.println("I am not 11");
 
         //Question 2: pass or fail
 //        byte m1, m2, m3;  //marks is taken in 100 so byte

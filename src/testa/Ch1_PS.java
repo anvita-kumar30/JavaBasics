@@ -1,7 +1,5 @@
 package testa;
 
-import java.util.Scanner;
-
 public class Ch1_PS {
     public static void main(String[] args) {
         //q1 sum of 3 nos.
@@ -11,11 +9,11 @@ public class Ch1_PS {
         System.out.print(sum);
 
         //q2 cgpa using marks out of 100 of 3 subjects
-        float sub1=45;
-        float sub2=90;
-        float sub3=80;
-        float cgpa=(sub1+sub2+sub3)/30;
-        System.out.println(cgpa);
+//        float sub1=45;
+//        float sub2=90;
+//        float sub3=80;
+//        float cgpa=(sub1+sub2+sub3)/30;
+//        System.out.println(cgpa);
 
         //q3 enter name and say hello with the entered name
 //        System.out.println("What is your name: ");
