@@ -30,8 +30,8 @@ public class CheckIfTwoArraysAreEqual {
     }
     public static void main(String[] args)
     {
-        int[] A = { 1 ,4,9,16,9,7,4,9,11  };
-        int[] B = { 11,11,7,9,16,4,1, };
+        int[] A = {1,4,9,16,9,7,4,9,11};
+        int[] B = {11,11,7,9,16,4,1};
 
         if (areSameSet(A, B))
             System.out.println("Yes");

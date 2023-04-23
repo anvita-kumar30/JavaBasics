@@ -4,10 +4,10 @@ public class OpPrece {
     public static void main(String[] args) {
         //Precedence
         //Associativity(tie breaker)
-//        int a=6*5-34/2;
-//        int b=60/5-34*2;
-//        System.out.println(a);
-//        System.out.println(b);
+        int aa=6*5-34/2;
+        int bb=60/5-34*2;
+        System.out.println(aa);
+        System.out.println(bb);
 
         //quick quiz
         int x=6;
