@@ -1,6 +1,6 @@
 package testa;
 
-public class GFG {
+public class MAX {
 
     // Function to find maximum length even word
     static String findMaxLenEven(String str)
