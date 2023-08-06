@@ -1,3 +1,5 @@
+//you are given a 2D array A which indicates |A| segments covered. ith segment cover integr points from A[i][0] A[i][1] inclusive. now your task is to find the number of integer points that are covered by exactly i number of segments for each 1<=i<=|A|. return an array B of size |A|+1, where B[i] denotes the number of integer points that are covered by exactly i segments. also note B[0] must be equal to 0.
+
 package test;
 import java.util.Scanner;
 public class IntegerPointsCoverage {
