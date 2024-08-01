@@ -10,6 +10,7 @@ public class Literals {
         float f1=5.6f;
         double d1=4.66D;
         boolean a=true;
+
         System.out.println(age);
         String str="Anvita";
         System.out.println(str);
