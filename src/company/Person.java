@@ -1,5 +1,6 @@
 package company;
 
+//Encapsulation Example
 public class Person {
     private String name;
     private int age;
