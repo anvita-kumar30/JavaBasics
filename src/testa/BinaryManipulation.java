@@ -1,5 +1,35 @@
 package testa;
 
+import java.io.*;
+
+//class Result {
+//    public static long minOperations(long n) {
+//        String bin = Long.toBinaryString(n);
+//        int operations = 0;
+//        int length = bin.length();
+//
+//        for (int i = length - 1; i >= 0; i--) {
+//            if (bin.charAt(i) == '1') {
+//                operations++;
+//                if (i > 0 && bin.charAt(i - 1) == '0') {
+//                    operations++;
+//                }
+//            }
+//        }
+//        return operations;
+//    }
+//}
+
+//public class BinaryManipulation {
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+//        long n = Long.parseLong(bufferedReader.readLine().trim());
+//        long result = Result.minOperations(n);
+//        System.out.println(result);
+//        bufferedReader.close();
+//    }
+//}
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +43,9 @@ public class BinaryManipulation {
         String bin = Long.toBinaryString(n);
 
         // Initialize operations counter
-        int operations = 0;
+        long operations = 0;
+
+//        char[] arr = bin.toCharArray();
 
         // To count trailing zeroes, we will track if we are in a sequence of zeros
         boolean inZeroSequence = false;
