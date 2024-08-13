@@ -8,14 +8,17 @@ public class StringHelloWorld {
         String str = scanner.nextLine(); // str is the given input string.
         scanner.close();
 
+        int length = str.length();
         // Iterate through the string and print each substring of length 3
-        for (int i = 0; i <= str.length() - 3; i++) {
-            System.out.println(str.substring(i, i + 3));
+        for (int i = 0; i <= length - 3; i+=3) {
+            int end = Math.min(i + 3, length);
+            System.out.println(str.substring(i, end));
         }
 
-        // Print any remaining characters if the length is not a multiple of 3
-        if (str.length() % 3 != 0) {
-            System.out.println(str.substring(str.length() - str.length() % 3));
+        // Print any remaining characters if the total length is not a multiple of 3.
+        int remainderStart = (length / 3) * 3;
+        if (remainderStart < length) {
+            System.out.println(str.substring(remainderStart));
         }
     }
 }
